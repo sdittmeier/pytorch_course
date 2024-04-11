@@ -15,7 +15,7 @@
 import torch
 from torch_scatter import scatter
 from torch_geometric.data import Data
-from acorn.utils.version_utils import get_pyg_data_keys
+from utils.version_utils import get_pyg_data_keys
 
 
 def get_condition_lambda(condition_key, condition_val):
